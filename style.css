@@ -1,10 +1,10 @@
 body {
   font-size: 25px;
   font-family: "BenchNine", sans-serif;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
-  color: brown;
-  background-color: #c8dcc4;
+  color: #383838;
+  background-color: #c4dcc2;
   width: 1300px;
   margin: auto;
 }
@@ -13,6 +13,37 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* icono fijo chat */
+
+.icon-container {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+  right: 10px; /* Ajusta la distancia desde la derecha */
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+/* boton fijo */
+.fixed-button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+  right: 50px; /* Ajusta la distancia desde la derecha */
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  width: 70px; /* Ajusta el tamaño del botón según tus necesidades */
+  height: 70px;
+  background-color: green; /* Color verde para el botón */
+  border: none; /* Sin bordes */
+  border-radius: 50%; /* Hace que el botón tenga forma de círculo */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.icon-container i {
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  width: 50px;
+  height: auto;
 }
 
 .contenido {
@@ -24,6 +55,7 @@ body {
 }
 
 .icono {
+  margin-top: 70px;
   width: 400px;
 }
 
@@ -105,6 +137,7 @@ body {
 h1 {
   font-size: 40px;
   margin-top: 20px;
+  font-weight: 10px;
 }
 
 .box img {
@@ -127,19 +160,17 @@ h1 {
 
 /* avatar y nombre */
 
-.foto img{
+.foto img {
   width: 500px;
   height: 307px;
   object-fit: cover;
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 28
-}
 
+.avatar span {
+  display: flex;
+
+  font-size: 50px;
+}
 .usuario {
   display: block;
   font-size: 20px;
@@ -147,12 +178,13 @@ h1 {
 .usuario p {
   margin-left: 48px;
 }
+
 /* icono corazon */
 .puntos {
   display: flex;
   justify-content: flex-end;
 }
-.puntos a{
+.puntos a {
   text-decoration: none;
   list-style: none;
   color: gray;
@@ -166,10 +198,11 @@ h1 {
 
 .likes {
   display: flex;
-  justify-content:right;
-  
-  
-  
+  justify-content: right;
+}
+
+.likes span {
+  padding-right: 5px;
 }
 
 .comentarios {
@@ -181,12 +214,168 @@ h1 {
   margin-top: 60px;
 }
 
-.coments span{
+.coments span {
   padding-right: 5px;
 }
 .menuusuario {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
 
+.usu {
+  display: flex;
+  align-items: center;
+}
+
+.nombre p {
+  margin: 0;
+}
+
+.nombre i {
+  position: relative;
+  font-size: 15px;
+  margin-left: 10px;
+  top: -3px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px 0px 100px 0px;
+}
+
+.frase {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.redes ul {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.redes ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+}
+
+.linea {
+  text-decoration: underline;
+}
+/* FICHA NOSOTROS---------------------------------------------------------------- */
+.contenedor-blog {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  position: static;
+  height: auto;
+  width: 100%;
+  min-height: 500px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.fotoperfil img {
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.text {
+  font-size: 30px;
+  display: block;
+  align-items: center;
+}
+.titul {
+  border: solid 0px #383838;
+  background-color: #383838;
+  padding: 10px 30px 10px 20px;
+  display: inline-block;
+  margin-bottom: 120px;
+  border-radius: 05px;
+}
+h2 {
+  color: white;
+}
+.enlace {
+  font-size: 25px;
+  text-decoration: none;
+  list-style: none;
+  color: brown;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.enlace a {
+  text-decoration: none;
+  list-style: none;
+  border: solid 2px brown;
+  padding: 10px 50px 10px 50px;
+  color: brown;
+  font-size: 30px;
+}
+
+/* FORMULARIO */
+
+.containerformu {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.titulformu {
+  border: solid 0px #383838;
+  background-color: #383838;
+  padding: 10px 30px 10px 20px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 05px;
+}
+
+input {
+  font-family: "BenchNine", sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 25px;
+  font-family: "BenchNine", sans-serif;
+}
+
+textarea {
+  font-family: "BenchNine", sans-serif;
+  resize: none;
+  width: 100%;
+}
+
+textarea::placeholder {
+  font-size: 25px;
+  font-family: "BenchNine", sans-serif;
+}
+
+.botonenviar {
+  margin-top: 10px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 05px;
+  background-color: beige;
+  font-family: "BenchNine", sans-serif;
+  font-size: 25px;
+  color: #383838;
+}
+
+.duda {
+  margin-bottom: 20px;
 }
