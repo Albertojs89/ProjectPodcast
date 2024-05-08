@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<podcast xsi:noNamespaceSchemaLocation="esquema_podcast.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <posts>
+        <post titulo="Viaje a la Antártida: Descubriendo la vida en el polo sur" fecha="2024-04-08">
+            <autor>
+                <nombre>National Geographic</nombre>
+                <avatar>avatar.JPG</avatar>
+            </autor>
+            <introduccion>Únete a nosotros en un emocionante viaje a la Antártida.</introduccion>
+            <descripcion>En este episodio, te llevaremos a través de la majestuosidad helada de la Antártida, desde sus impresionantes paisajes hasta las increíbles adaptaciones de sus habitantes, como los pingüinos y las focas.</descripcion>
+            <tiempo_lectura>45</tiempo_lectura>
+            <num_visualizaciones>1000</num_visualizaciones>
+            <num_comentarios>20</num_comentarios>
+            <num_megusta>500</num_megusta>
+            <imagen>foto1.jpg</imagen>
+        </post>
+        
+        <post titulo="Explorando el futuro de la inteligencia artificial" fecha="2024-04-09">
+            <autor>
+                <nombre>MIT Technology Review</nombre>
+                <avatar>avatar.JPG</avatar>
+            </autor>
+            <introduccion>Los últimos avances en inteligencia artificial.</introduccion>
+            <descripcion>En este episodio, discutiremos los desarrollos más recientes en IA, desde el aprendizaje profundo hasta la ética en la inteligencia artificial, y exploraremos cómo estas innovaciones están transformando industrias como la medicina, la automoción y más.</descripcion>
+            <tiempo_lectura>30</tiempo_lectura>
+            <num_visualizaciones>1500</num_visualizaciones>
+            <num_comentarios>30</num_comentarios>
+            <num_megusta>800</num_megusta>
+            <imagen>foto2.jpg</imagen>
+        </post>
+        
+        <post titulo="Mindfulness: Cultivando la paz interior en tiempos turbulentos" fecha="2024-04-10">
+            <autor>
+                <nombre>Calm Mindfulness</nombre>
+                <avatar>avatar.JPG</avatar>
+            </autor>
+            <introduccion>Descubre cómo el mindfulness.</introduccion>
+            <descripcion>En este episodio, exploraremos las prácticas de mindfulness y cómo pueden mejorar tu bienestar mental, reducir el estrés y aumentar la resiliencia emocional en tu vida diaria.</descripcion>
+            <tiempo_lectura>20</tiempo_lectura>
+            <num_visualizaciones>800</num_visualizaciones>
+            <num_comentarios>15</num_comentarios>
+            <num_megusta>400</num_megusta>
+            <imagen>foto3.jpg</imagen>
+        </post>
+        
+        <post titulo="Los misterios de la civilización maya revelados" fecha="2024-04-11">
+            <autor>
+                <nombre>History Channel</nombre>
+                <avatar>avatar.JPG</avatar>
+            </autor>
+            <introduccion>Antiguos mayas, los secretos de su civilización perdida.</introduccion>
+            <descripcion>En este episodio, investigaremos los logros culturales, arquitectónicos y científicos de los mayas, así como los enigmas que rodean su misteriosa desaparición.</descripcion>
+            <tiempo_lectura>40</tiempo_lectura>
+            <num_visualizaciones>1200</num_visualizaciones>
+            <num_comentarios>25</num_comentarios>
+            <num_megusta>600</num_megusta>
+            <imagen>foto4.jpg</imagen>
+        </post>
+        
+        <post titulo="La magia del cine: Detrás de cámaras de las películas icónicas" fecha="2024-04-12">
+            <autor>
+                <nombre>Movie Buffs</nombre>
+                <avatar>avatar.JPG</avatar>
+            </autor>
+            <introduccion>Los secretos del cine.</introduccion>
+            <descripcion>En este episodio, exploraremos los aspectos creativos, técnicos y narrativos que hacen que las películas sean verdaderamente mágicas, desde clásicos del cine negro hasta éxitos de taquilla modernos.</descripcion>
+            <tiempo_lectura>50</tiempo_lectura>
+            <num_visualizaciones>1800</num_visualizaciones>
+            <num_comentarios>35</num_comentarios>
+            <num_megusta>900</num_megusta>
+            <imagen>foto5.jpg</imagen>
+        </post>
+    </posts>
+</podcast>

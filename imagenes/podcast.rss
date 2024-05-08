@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<rss version="2.0">
+    <channel>
+        <title>Nómada en el camino</title>
+        <link><index class="html"></index></link>
+        <description>Podcast de todos los estilos</description>
+
+       <item>
+            <title>National Geographic</title>
+            <link><index class="html"></index></link>
+            <description>Explora la naturaleza del mundo, descubre los lugares más increíbles del planeta y el lado más salvaje de la naturaleza.</description>
+            <enclosure url="audiosaludo.mp3" length=" 383,296" type="mp3"></enclosure>
+        </item>
+            <title>MIT Technology Review</title>
+            <link><index class="html"></index></link>
+            <description>Lo último en tecnología, las mejores revoluciones y lo que está por venir, el futuro es el presente.</description>
+            <enclosure url="audiosaludo.mp3" length=" 383,296" type="mp3"></enclosure>
+        <item>
+            <title>Calm Mindfulness</title>
+            <link><index class="html"></index></link>
+            <description>Mejora tu mente con esta técnica, descubre como mejorar tu cuerpo y mente, y dar un salto de tu calidad de vida.</description>
+            <enclosure url="audiosaludo.mp3" length=" 383,296" type="mp3"></enclosure>
+        </item>
+            <title>History Channel</title>
+            <link><index class="html"></index></link>
+            <description>Revive el pasado en History Channel, desde la epoca de los Dinosaurios a el Imperio Romano, desde la conquista de los Vikingos a la más reciente guerra fría.</description>
+            <enclosure url="audiosaludo.mp3" length=" 383,296" type="mp3"></enclosure>
+        <item>
+            <title>Movie Buffs</title>
+            <link><index class="html"></index></link>
+            <description>Que se esconde detrás del cine? Como se hizo esa película? No dejarás de sorprenderte con las mil curiosidades que no esperabas en este fantástico mundo del cine.</description>
+            <enclosure url="audiosaludo.mp3" length=" 383,296" type="mp3"></enclosure>
+        </item>
+       
+    </channel>
+
+
+
+
+</rss>
