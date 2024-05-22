@@ -379,3 +379,86 @@ textarea::placeholder {
 .duda {
   margin-bottom: 20px;
 }
+
+/* estilo para window post ampliado */
+
+.post-ampliado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.post-ampliado img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-ampliado h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.post-ampliado .texto {
+  max-width: 800px;
+  text-align: justify;
+}
+
+.post-ampliado .comentarios {
+  margin-top: 40px;
+}
+
+.post-ampliado .comentarios .coments {
+  margin-right: 20px;
+}
+
+.post-ampliado .comentarios .likes {
+  margin-left: auto;
+}
+
+.post-ampliado .comentarios span {
+  margin-right: 10px;
+}
+
+/* box para imagenes ampliadas css window */
+
+.foto-ampliado img {
+  width: 700px;
+  height: 407px;
+  object-fit: cover;
+}
+
+.box-ampliado {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  background-color: rgb(109, 108, 108);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 50px;
+}
+
+.box-ampliado img {
+  margin-top: 07px;
+  margin-left: 20px;
+  width: 500px;
+  border-radius: 20px;
+  padding: auto;
+}
+
+.puntos-ampliado {
+  display: flex;
+  justify-content: flex-end;
+}
+.puntos-ampliado a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
